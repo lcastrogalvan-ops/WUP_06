@@ -89,6 +89,11 @@ From this data we see of all the people in favor of capital punishment 80% were 
 
 ## More data version
 
+```{r}
+fisherXY(mydata$race, mydata$cappun)
+```
+
+Statistically everyone is different and each group ha a low p value
 
 # Discussion and Conclusion
 
