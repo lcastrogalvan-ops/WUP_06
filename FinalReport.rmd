@@ -67,9 +67,13 @@ The data says white people and other races are often more in favor of capital pu
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table2 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table2)
+colPerc(table2)
+```
 
-
-
+The data states that 65.10% of white people, 42.63% black and 55.20 others were in favor of capital punishment. On the opposing, 34.90 were white, 57.37 were black and 44.80 was composed of other races.
 
 
 ## Inferential Results
